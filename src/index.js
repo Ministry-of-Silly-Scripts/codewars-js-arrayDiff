@@ -1,9 +1,16 @@
 const arrayDiff = (L1, L2) => {
+  out = []
   if (L2.length === 0) {
     return L1;
   }
 
-  return [];
+  for (elem of L1) {
+    if (elem !== L2[0]) {
+      out.push(elem);
+    }
+  }
+
+  return out;
 };
 
 module.exports = {

@@ -33,6 +33,8 @@ arrayDiff([1,2,2,2,3],[2]) == [1,3]
 ---
 
 TODO:
+# Pomodoro 2 🍅:
+- it should loop through the first array and remove the elements that are equal to the first element of the second array ✅
 
 # Pomodoro 1 🍅:
 - initial setup
@@ -43,3 +45,4 @@ TODO:
 - domain discussion ✅
 - it should return an empty array if the first array is empty (nothing to subtract from) ✅
 - it should return an the first array if the second array is empty ✅
+- it should loop through the first array and remove the elements that are equal to the first element of the second array 🚧
