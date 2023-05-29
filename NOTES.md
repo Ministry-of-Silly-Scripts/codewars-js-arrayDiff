@@ -2,9 +2,9 @@
 
 ## Description
 
-Your goal in this kata is to implement a difference function, which subtracts one list from another and returns the result.
+Your goal in this kata is to implement a difference function, which subtracts one array from another and returns the result.
 
-It should remove all values from list a, which are present in list b keeping their order.
+It should remove all values from array a, which are present in array b keeping their order.
 
 ```
 arrayDiff([1,2],[1]) == [2]
@@ -19,11 +19,11 @@ arrayDiff([1,2,2,2,3],[2]) == [1,3]
 ## Domain
 
 - input: 
-    - two lists with integers (ex: `([1, 2], [1]`), each with undefined number of elements
+    - two arrays with integers (ex: `([1, 2], [1]`), each with undefined number of elements
 - output:
-    - single list with integers
-- difference function which substracts one list from another
-- it should remove ALL elements from the first list that are present in the second list keeping the others
+    - single array with integers
+- difference function which substracts one array from another
+- it should remove ALL elements from the first array that are present in the second array keeping the others
 
 ---
 
@@ -41,3 +41,4 @@ TODO:
     - update package.json ✅
     - update NOTES ✅
 - domain discussion ✅
+- it should return an empty array if the first array is empty (nothing to subtract from) ✅
