@@ -16,7 +16,14 @@ If a value is present in b, all of its occurrences must be removed from the othe
 arrayDiff([1,2,2,2,3],[2]) == [1,3]
 ```
 
+## Domain
 
+- input: 
+    - two lists with integers (ex: `([1, 2], [1]`), each with undefined number of elements
+- output:
+    - single list with integers
+- difference function which substracts one list from another
+- it should remove ALL elements from the first list that are present in the second list keeping the others
 
 ---
 
@@ -33,3 +40,4 @@ TODO:
     - change function name in files located in src and test folders ✅
     - update package.json ✅
     - update NOTES ✅
+- domain discussion ✅
