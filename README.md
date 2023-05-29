@@ -1,8 +1,8 @@
-# XXXXX kata 
+# Array.diff kata 
 
-XXXXX kata performed by to practice TDD for the Jaguars training at IBM
+Array.diff kata performed by to practice TDD for the Jaguars training at IBM
 
-[XXXXXX on CodeWars](https://www.codewars.com/kata/)
+[Array.diff on CodeWars](https://www.codewars.com/kata/523f5d21c841566fde000009/)
 
 ## Prerequisites
 

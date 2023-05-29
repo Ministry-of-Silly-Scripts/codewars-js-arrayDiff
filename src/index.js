@@ -1,5 +1,5 @@
-const placeholder = () => true;
+const arrayDiff = () => true;
 
 module.exports = {
-  placeholder,
+  arrayDiff,
 };
