@@ -42,3 +42,4 @@ TODO:
     - update NOTES ✅
 - domain discussion ✅
 - it should return an empty array if the first array is empty (nothing to subtract from) ✅
+- it should return an the first array if the second array is empty ✅
