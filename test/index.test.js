@@ -20,4 +20,8 @@ describe("arrayDiff", () => {
   test("it should return [1] for an input of [1,2,2] and [2]", () => {
     expect(arrayDiff([1, 2, 2], [2])).toStrictEqual([1]);
   });
+
+  test("it should return [3] for an input of [1,2,3] and [1,2]", () => {
+    expect(arrayDiff([1, 2, 3], [1, 2])).toStrictEqual([3]);
+  });
 });
